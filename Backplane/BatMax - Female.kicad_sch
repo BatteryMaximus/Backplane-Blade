@@ -1577,6 +1577,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A8"
 			(uuid "d78d0e53-38ec-43d2-9515-4ab9c45962b9")
 		)

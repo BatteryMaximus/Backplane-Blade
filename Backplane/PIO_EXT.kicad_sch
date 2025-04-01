@@ -1038,7 +1038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4335e850-ee10-400f-aca9-2e3cd7773058")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 135.89 45.72 0)
 			(effects
 				(font
@@ -1088,6 +1088,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "21"
@@ -1169,7 +1185,7 @@
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "U?")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1186,7 +1202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9bd9af-fad5-4074-8a4d-b47836a57302")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0135"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -1241,7 +1257,7 @@
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "#PWR?")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -1370,6 +1386,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -2969,6 +2969,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a23c5cf4-4db9-4015-b65f-9f74c001221c")
 		)
@@ -3014,7 +3030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 218.44 96.52 0)
 			(effects
 				(font
@@ -3039,6 +3055,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -3211,6 +3243,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e42551e3-e54e-4b26-a2b2-82ba87ef2924")
 		)
@@ -3273,7 +3321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 69.85 149.86 0)
 			(effects
 				(font
@@ -3298,6 +3346,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -3391,6 +3455,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00bb6ae7-8d8a-4dcb-b966-e0a8c0365175")
 		)
@@ -3471,6 +3551,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3629,6 +3725,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 86.36 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1796ed42-3ef5-42ea-b38c-18f313af1f8e")
 		)
@@ -3703,6 +3815,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ffcfc3a-c890-40d8-89f4-250bccb266ad")
 		)
@@ -3773,6 +3901,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3891,7 +4035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 99.06 147.32 0)
 			(effects
 				(font
@@ -3916,6 +4060,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4474,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -4499,6 +4659,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4588,6 +4764,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 82.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4732,6 +4924,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f2989d46-34cb-4aed-a8a1-57afbf9a76ad")
 		)
@@ -4804,6 +5012,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16d0d659-bc5d-4870-8106-5bddfc7113b7")
 		)
@@ -4874,6 +5098,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5100,6 +5340,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3eceac9f-dd0f-43c2-83f7-d1578aaad6b1")
 		)
@@ -5184,6 +5440,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa7ac076-088e-4c26-b7e9-1bb67e336282")
 		)
@@ -5253,6 +5525,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5329,6 +5617,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0406c212-374b-4bb5-a442-5649fde5b9fd")
 		)
@@ -5401,6 +5705,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da8c73c6-d2b2-4273-84b4-57ad86f37ba1")
 		)
@@ -5446,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 71.12 76.2 0)
 			(effects
 				(font
@@ -5471,6 +5791,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -5784,6 +6120,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 146.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e300e678-daad-4e70-a7e9-9f298cf94444")
 		)
@@ -5934,6 +6286,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99368ece-8072-4f47-93da-d1ea21778311")
 		)
@@ -6006,6 +6374,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6230,6 +6614,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6e04a7b-7898-44f4-9a85-62e7c0b11616")
 		)
@@ -6428,7 +6828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 219.71 118.11 0)
 			(effects
 				(font
@@ -6453,6 +6853,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6545,6 +6961,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "86f29297-861e-4956-9aa4-fa67f6734f19")
 		)
@@ -6620,6 +7052,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 132.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f08e089d-64a6-4e35-ac6f-26bc342ce3d9")
 		)
@@ -6692,6 +7140,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48c5e6ff-1454-479b-9cee-4d21696e03e3")
 		)
@@ -6761,6 +7225,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6906,6 +7386,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f0bcde9-2b1b-46e3-95e6-6c0fd6bab2c4")
 		)
@@ -6975,6 +7471,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 87.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
