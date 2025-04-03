@@ -1532,7 +1532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4738dca3-549e-4428-bce0-25ff1ec26bff")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 162.814 121.158 0)
 			(effects
 				(font
@@ -1704,19 +1704,19 @@
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/8e2ca9d2-c453-4895-8be9-8e18b9ef2abd"
-					(reference "J6")
-					(unit 1)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/d619fa52-f488-4117-86b4-e605a2e4fb70"
-					(reference "J5")
-					(unit 1)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/8e2ca9d2-c453-4895-8be9-8e18b9ef2abd"
 					(reference "J4")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/d619fa52-f488-4117-86b4-e605a2e4fb70"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/d619fa52-f488-4117-86b4-e605a2e4fb70"
 					(reference "J3")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/8e2ca9d2-c453-4895-8be9-8e18b9ef2abd"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/d619fa52-f488-4117-86b4-e605a2e4fb70"
+					(reference "J2")
 					(unit 1)
 				)
 			)
