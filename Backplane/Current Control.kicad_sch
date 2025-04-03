@@ -3949,7 +3949,7 @@
 		(dnp no)
 		(uuid "30133a0c-29ab-4b69-9f03-1826302c741b")
 		(property "Reference" "U3"
-			(at 100.33 88.9 0)
+			(at 110.744 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +3957,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 100.33 86.36 0)
+			(at 110.998 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,10 +5857,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aee35e06-f83d-431b-83d9-714fe872d3b2")
 		(property "Reference" "U3"
-			(at 99.06 137.16 0)
+			(at 108.966 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5867,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 99.06 139.7 0)
+			(at 110.998 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
