@@ -3964,7 +3964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -5645,7 +5645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 219.71 113.03 0)
 			(effects
 				(font
@@ -5874,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 99.06 147.32 0)
 			(effects
 				(font
