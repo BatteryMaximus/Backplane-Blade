@@ -1038,7 +1038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4335e850-ee10-400f-aca9-2e3cd7773058")
-		(property "Reference" "U11"
+		(property "Reference" "U7"
 			(at 135.89 45.72 0)
 			(effects
 				(font
@@ -1181,11 +1181,11 @@
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/06b95e8c-a01d-4481-87a7-6ca1ab97078e"
-					(reference "U31")
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "U11")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1202,7 +1202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9bd9af-fad5-4074-8a4d-b47836a57302")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR099"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -1253,11 +1253,11 @@
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/06b95e8c-a01d-4481-87a7-6ca1ab97078e"
-					(reference "#PWR0130")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "#PWR0135")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -1273,7 +1273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74161d94-c034-4efe-af6e-d44c8388525b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR098"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -1323,11 +1323,11 @@
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/06b95e8c-a01d-4481-87a7-6ca1ab97078e"
-					(reference "#PWR0129")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "#PWR060")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34dc53a-0709-45e5-b011-7e7f5995ffdb")
-		(property "Reference" "C17"
+		(property "Reference" "C8"
 			(at 106.68 50.8001 0)
 			(effects
 				(font
@@ -1413,11 +1413,11 @@
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/06b95e8c-a01d-4481-87a7-6ca1ab97078e"
-					(reference "C18")
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/da7544e6-abb6-4349-a9c8-8cf8ece4b836"
-					(reference "C17")
+					(reference "C8")
 					(unit 1)
 				)
 			)

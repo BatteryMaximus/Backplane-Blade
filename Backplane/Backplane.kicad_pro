@@ -51,14 +51,45 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "hole_clearance|350850000|200000000|b516ce4a-0199-4b00-ab41-fc34f7285834|80edccfb-a024-422d-854a-d98bac9e70bb",
+          ""
+        ],
+        [
+          "hole_clearance|350850000|200000000|b516ce4a-0199-4b00-ab41-fc34f7285834|d63a6b9e-bab6-4340-98dd-f1aca5f9177b",
+          ""
+        ],
+        [
+          "hole_clearance|480850000|200000000|587a478f-73fa-4679-822f-39802f64a3e5|0eebe278-6191-483d-a31c-c8ed8a10703a",
+          ""
+        ],
+        [
+          "hole_clearance|480850000|200000000|587a478f-73fa-4679-822f-39802f64a3e5|ba28a2cf-ba86-4a68-8af7-e03658a2db50",
+          ""
+        ],
+        [
+          "hole_clearance|90850000|200000000|8972d042-3f96-4894-9fc1-ddb85bf4987e|6b4f78e0-32d2-48df-b529-564f9c477e57",
+          ""
+        ],
+        [
+          "hole_clearance|90850000|200000000|8972d042-3f96-4894-9fc1-ddb85bf4987e|ef250e93-aed3-47a4-90c8-09b69d98e301",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -99,7 +130,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -179,7 +210,19 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +249,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -658,7 +706,7 @@
     ],
     [
       "3c9f02da-d650-4aeb-96f8-fcecffdf73c3",
-      "BAT_LEDS2"
+      "BAT_LEDS3"
     ],
     [
       "73c31c82-b4ce-4db9-85ed-23bc4db11f2f",
@@ -677,16 +725,12 @@
       "BatMax - Female"
     ],
     [
-      "ddf14ba8-4be3-44a6-82db-a61e1c077819",
-      "Current Control"
-    ],
-    [
       "da7544e6-abb6-4349-a9c8-8cf8ece4b836",
       "PIO_EXT"
     ],
     [
       "740f29a7-6c31-469a-b612-51421909acdf",
-      "BAT_LEDS"
+      "BAT_LEDS4"
     ],
     [
       "bfbf5e40-1693-4915-89fc-d95381947453",
@@ -699,10 +743,6 @@
     [
       "8e2ca9d2-c453-4895-8be9-8e18b9ef2abd",
       "BatMax - Female1"
-    ],
-    [
-      "ddf14ba8-4be3-44a6-82db-a61e1c077819",
-      "Current Control"
     ],
     [
       "76e3960b-f2fa-46d9-a2c9-b40bbe294a89",
@@ -729,8 +769,20 @@
       "PIO_EXT1"
     ],
     [
+      "e110922e-d609-4fdc-b99c-b09b6b9b3dde",
+      "Current Control1"
+    ],
+    [
       "f2f6fea8-1014-4acb-870f-95f3993f6225",
       "PSUS"
+    ],
+    [
+      "b6b3263e-d8dd-4033-8412-7162fd0c1033",
+      "MountingHoles"
+    ],
+    [
+      "e110922e-d609-4fdc-b99c-b09b6b9b3dde",
+      "Current Control1"
     ]
   ],
   "text_variables": {}

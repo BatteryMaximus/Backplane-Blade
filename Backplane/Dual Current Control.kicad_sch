@@ -1645,7 +1645,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1666,7 +1666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1692,7 +1692,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1710,7 +1710,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1748,7 +1748,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1913,12 +1913,6 @@
 		(uuid "461c61ba-2624-4308-9552-66be57e67463")
 	)
 	(junction
-		(at 92.71 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5744719e-94cb-4f93-b67e-d6f772838e73")
-	)
-	(junction
 		(at 132.08 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1943,10 +1937,10 @@
 		(uuid "8a6a18ea-a97f-410c-ab6a-5c6153921997")
 	)
 	(junction
-		(at 91.44 147.32)
+		(at 92.71 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97e6713b-2900-4d5f-a5e3-b5569099922f")
+		(uuid "a18b8c16-b567-47d5-9a2a-da9637aee750")
 	)
 	(junction
 		(at 87.63 147.32)
@@ -1965,6 +1959,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab2b8d13-923a-4ef0-a35f-5f5a6d85a95e")
+	)
+	(junction
+		(at 91.44 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab431b3f-0273-4003-a278-b028525db324")
 	)
 	(junction
 		(at 86.36 173.99)
@@ -2013,16 +2013,6 @@
 			(type default)
 		)
 		(uuid "065c2d67-e2b1-4bc9-b62c-d5ba1650377b")
-	)
-	(wire
-		(pts
-			(xy 92.71 78.74) (xy 92.71 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ed90c5-04a5-4df7-bb35-cac25a28bdfa")
 	)
 	(wire
 		(pts
@@ -2096,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 137.16) (xy 87.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fb1572-f61d-4b93-8668-d5f46e3c1ffa")
+	)
+	(wire
+		(pts
 			(xy 78.74 152.4) (xy 77.47 152.4)
 		)
 		(stroke
@@ -2123,16 +2123,6 @@
 			(type default)
 		)
 		(uuid "20d72e74-6d48-4c3f-a869-008084482b30")
-	)
-	(wire
-		(pts
-			(xy 86.36 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c46c6c-32ed-4d47-8d0d-02a17e028c1e")
 	)
 	(wire
 		(pts
@@ -2296,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 137.16) (xy 87.63 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50fae3a7-92d7-47d6-9532-42bea7345699")
-	)
-	(wire
-		(pts
 			(xy 120.65 171.45) (xy 113.03 171.45)
 		)
 		(stroke
@@ -2376,16 +2356,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c1f917-e479-4de1-b97a-dec686e6c6dd")
-	)
-	(wire
-		(pts
 			(xy 57.15 91.44) (xy 147.32 91.44)
 		)
 		(stroke
@@ -2433,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "71b42783-f4fe-4d5f-a078-2d0a61011367")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e7eb6d-c593-4d57-b59c-85ce8c5ff9b7")
 	)
 	(wire
 		(pts
@@ -2606,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 86.36) (xy 92.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a917aa9b-91ca-4043-9c69-bbdfd5c7a098")
+	)
+	(wire
+		(pts
 			(xy 154.94 147.32) (xy 151.13 147.32)
 		)
 		(stroke
@@ -2623,16 +2613,6 @@
 			(type default)
 		)
 		(uuid "b205f7bf-b593-4779-aa03-98b3cd0483cd")
-	)
-	(wire
-		(pts
-			(xy 107.95 81.28) (xy 107.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d13f0c-ec6f-4780-a5e8-94ef2396b5a4")
 	)
 	(wire
 		(pts
@@ -2676,13 +2656,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 87.63 137.16)
+			(xy 107.95 86.36) (xy 107.95 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8b49286-e29b-443d-9dfd-56fea194ea18")
+		(uuid "d1f086b9-89b3-444c-a0ad-88954400ac54")
 	)
 	(wire
 		(pts
@@ -2767,7 +2747,7 @@
 	)
 	(hierarchical_label "LOAD_B_SNS"
 		(shape output)
-		(at 86.36 137.16 180)
+		(at 87.63 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2789,7 +2769,7 @@
 	)
 	(hierarchical_label "LOAD_A_SNS"
 		(shape output)
-		(at 86.36 88.9 180)
+		(at 88.9 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2873,7 +2853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00d2e29d-249d-46e5-be72-cecdc8712a10")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR04"
 			(at 208.28 129.54 0)
 			(effects
 				(font
@@ -2919,16 +2899,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d6d2aed-05b9-475d-bb6a-a48f2edb7a05")
+			(uuid "881e529c-7b7e-4d53-bfb6-ba361468cb52")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0198")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR04")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0221")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0773d954-bfa1-42ce-b18b-545f74307002")
-		(property "Reference" "C52"
+		(property "Reference" "C3"
 			(at 44.45 115.5699 0)
 			(effects
 				(font
@@ -2989,107 +2969,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 40.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 40.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "5603cca3-911e-4cc4-9d75-127c11df0577")
+			(uuid "4e113de9-b3ef-4397-b133-f1ed0e56e478")
 		)
 		(pin "2"
-			(uuid "3ab63de0-e53d-4cb1-8d1e-189e99d7b37e")
+			(uuid "2a6a0534-f266-4522-9646-6bac9ba59a38")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C52")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C3")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 85.09 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fd0abbc-fa39-4308-a598-bc76c2cf66a1")
-		(property "Reference" "#PWR071"
-			(at 88.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 81.28 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9dcc95e-2e11-46a2-aecc-8e7f7ff6f5d6")
-		)
-		(instances
-			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR071")
-					(unit 1)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR077")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3105,7 +2998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "109fbf36-e1fb-46a1-b715-2dea05aa7783")
-		(property "Reference" "U28"
+		(property "Reference" "U1"
 			(at 218.44 88.9 90)
 			(effects
 				(font
@@ -3121,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" ""
 			(at 218.44 96.52 0)
 			(effects
 				(font
@@ -3148,30 +3041,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 218.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 218.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "7"
 			(uuid "ce91a19e-be07-4d45-aa09-572cbaf64ad9")
 		)
 		(pin "8"
-			(uuid "a5c98efd-34a2-41c0-891b-54d9825d643e")
+			(uuid "d124dcd1-e326-42a8-ba61-4b00841865f1")
 		)
 		(pin "4"
-			(uuid "15d9be91-95b4-4169-97cc-64ece643cb3b")
+			(uuid "9d8eb164-cac9-4f28-a898-2ef39c82e0a7")
 		)
 		(pin "5"
 			(uuid "d6201660-7807-4bba-86f7-5e8405b70a88")
@@ -3190,12 +3067,12 @@
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U28")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U1")
 					(unit 3)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U34")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -3211,7 +3088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e8f54f-839c-4e4a-834c-5480ced39fed")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR01"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -3257,16 +3134,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f73546a-91e1-4807-974b-1f58810a461e")
+			(uuid "6937f660-6f7a-4b58-8d36-5d0998464f41")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0195")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR01")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0218")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11ee1d74-65ee-49ff-bc59-1eca45d1edc0")
-		(property "Reference" "U29"
+		(property "Reference" "U7"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -3334,54 +3211,127 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 83.82 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 83.82 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
-			(uuid "e09559ec-fa25-4724-9be2-531f9369cd36")
+			(uuid "17dde048-bb32-49b1-a513-0ce0fd164c34")
 		)
 		(pin "7"
-			(uuid "b985dfe3-94d0-42eb-a5f8-28dd8046d605")
+			(uuid "2592951d-5e61-4bed-84fa-81d089d7dc84")
 		)
 		(pin "6"
-			(uuid "fce4598b-7b33-42ac-8430-f62571e17fa9")
+			(uuid "d301efb7-2b54-4888-bd5c-f61d6cac6bfe")
 		)
 		(pin "5"
-			(uuid "9b450beb-4e4c-45dc-9bbf-87815090e035")
+			(uuid "eaf64a35-345a-424b-a0ce-23a1ee3db038")
 		)
 		(pin "2"
-			(uuid "2f99287d-a5d1-4b6f-a04d-193d9e1ba7ad")
+			(uuid "7bf54090-b246-4736-8511-571f44a18b6f")
 		)
 		(pin "4"
-			(uuid "f4f6b70c-58f8-423c-9850-acaf7c63500a")
+			(uuid "54048d4e-6a2f-4bd2-8f99-5f3d8252b3e1")
 		)
 		(pin "1"
-			(uuid "6a176951-ee56-49be-a201-5e3b44718da5")
+			(uuid "3bff18ce-887e-436a-9231-9fa0812fd83b")
 		)
 		(pin "8"
-			(uuid "f856f7d2-762b-4218-a9c1-1d069f00a5cb")
+			(uuid "e227f5d9-2e7c-4e8f-84af-16532c4ad9b0")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U29")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U7")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U35")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 69.85 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ee379f-bd7b-41d1-bd7d-8fb21e64d68f")
+		(property "Reference" "U10"
+			(at 63.754 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 71.374 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 69.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ce91a19e-be07-4d45-aa09-572cbaf64ada")
+		)
+		(pin "8"
+			(uuid "5b65dca6-87c4-4b38-b638-d8b836fe220f")
+		)
+		(pin "4"
+			(uuid "6c84d931-3a13-46a5-a775-e057d9d358e1")
+		)
+		(pin "5"
+			(uuid "d6201660-7807-4bba-86f7-5e8405b70a89")
+		)
+		(pin "1"
+			(uuid "0834cf02-e04c-4b1c-b7b5-acd484ba7f64")
+		)
+		(pin "6"
+			(uuid "282b52a1-dbcf-45be-8a04-2858a4f46aa6")
+		)
+		(pin "3"
+			(uuid "dc5002eb-e320-43f5-a210-b01ba28451da")
+		)
+		(pin "2"
+			(uuid "9cf332df-679f-4a39-a389-1a2ffbfb610a")
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14c7331c-148f-4969-937c-9a6cc66407f7")
-		(property "Reference" "C54"
+		(property "Reference" "C7"
 			(at 76.2 64.77 90)
 			(effects
 				(font
@@ -3441,36 +3391,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "505efa0e-3a01-40a8-ab5e-98019a9f17c9")
+			(uuid "26aad9f7-c9e1-433f-afc3-6d3ad0802de9")
 		)
 		(pin "2"
-			(uuid "a46836d8-3f5d-482c-ab8b-98ffbc6ed7e1")
+			(uuid "e7419003-a243-48f3-8eeb-e074d0feee87")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C54")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C7")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C61")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15437a16-f4ef-4760-8e22-8d2d569709ca")
-		(property "Reference" "U33"
+		(property "Reference" "U14"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -3539,48 +3473,32 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "9112e080-eef9-40d0-bbee-83c3e6c8d0dd")
+			(uuid "3fbe9e0d-96d4-4e46-87ec-c8498513128e")
 		)
 		(pin "3"
-			(uuid "c4d759a4-75fa-437c-a4b6-186117e577f9")
+			(uuid "34aef631-b4e1-420a-9650-7a810218ec50")
 		)
 		(pin "4"
-			(uuid "3671ed19-c80e-42d8-b405-296d3351d8a7")
+			(uuid "52a430c9-95a4-43c6-bc61-bae8113d7664")
 		)
 		(pin "6"
-			(uuid "8ff86fc0-1314-4676-b423-02a78cd15261")
+			(uuid "868618ea-202a-4769-98c8-6df851dcdd41")
 		)
 		(pin "2"
-			(uuid "4d559b6f-e39e-482b-a01e-21b8a19b5a2d")
+			(uuid "18323ed8-8254-40b6-b11f-9c0b31114bf3")
 		)
 		(pin "5"
-			(uuid "87a8690c-ee2a-45b4-a879-31cf1ad89c85")
+			(uuid "d1773891-8382-4d58-a114-04aa1f5e486d")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U33")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U14")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U39")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e56de15-9686-43dd-8ecb-182a19d73707")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR021"
 			(at 86.36 54.61 0)
 			(effects
 				(font
@@ -3641,16 +3559,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f71b97e6-ddcd-4b5e-9154-63578111dc00")
+			(uuid "e9c9c059-ccd6-45ee-b7e7-a8f8d7b1e405")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0187")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0210")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3666,7 +3584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ec3aff-7ae5-41c0-855c-4e3130436f24")
-		(property "Reference" "C55"
+		(property "Reference" "C5"
 			(at 90.17 176.5299 0)
 			(effects
 				(font
@@ -3711,107 +3629,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 86.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 86.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "e8cdaac4-494f-48d7-ad99-8cc3285cf3f9")
+			(uuid "1426d1d4-6a89-463b-a70b-4428ef8bc6f4")
 		)
 		(pin "2"
-			(uuid "4515e8e6-d000-43b5-b7ed-fa028e8bcee2")
+			(uuid "048aaadf-7c26-4721-b939-817b925c9360")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C55")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C5")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22370c74-f60a-425e-991f-1edcd69525df")
-		(property "Reference" "#PWR078"
-			(at 90.17 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 82.55 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2714784d-0b7c-44bc-a366-65a44d9de75c")
-		)
-		(instances
-			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR078")
-					(unit 1)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR079")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3827,7 +3658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a65015a-bf4c-4e63-85cb-5ad10239c733")
-		(property "Reference" "C57"
+		(property "Reference" "C1"
 			(at 212.09 96.5199 0)
 			(effects
 				(font
@@ -3872,36 +3703,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 208.28 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 208.28 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "386e50fa-b127-4dca-b375-d2f2d806670c")
+			(uuid "1cbd195e-30f6-403c-9176-307ea1e22814")
 		)
 		(pin "2"
-			(uuid "12858a11-6187-4142-b9f1-7330baf51fc8")
+			(uuid "bbc8f9af-d35e-4bba-9463-6258e928b256")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C57")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C1")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C64")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3917,7 +3732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e5ec9f0-5c83-49ba-8707-daaca1e2952b")
-		(property "Reference" "R133"
+		(property "Reference" "R11"
 			(at 115.824 88.392 90)
 			(effects
 				(font
@@ -3960,232 +3775,21 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "c6b8989f-c721-42d6-8baf-1782fdaa961f")
+			(uuid "ff7d7a31-0302-4c59-bcdb-8907423cfb57")
 		)
 		(pin "1"
-			(uuid "80dcb1c6-16b2-40a1-ba21-c59b38074b9d")
+			(uuid "808e8fca-2f87-4a84-b5b5-0d2ac52a5102")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R133")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R11")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R147")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R26")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 69.85 149.86 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2eceaa5a-5724-4443-b854-98b09ad8fc73")
-		(property "Reference" "U28"
-			(at 69.85 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 69.85 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 69.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 69.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 69.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 69.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 69.85 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "27a38276-b4fd-4b7c-a42e-580cfc5fa64f")
-		)
-		(pin "8"
-			(uuid "5b65dca6-87c4-4b38-b638-d8b836fe2210")
-		)
-		(pin "4"
-			(uuid "6c84d931-3a13-46a5-a775-e057d9d358e2")
-		)
-		(pin "5"
-			(uuid "ad5670bf-5667-4ad4-94df-c11b999b8268")
-		)
-		(pin "1"
-			(uuid "2d2b4f15-0b61-4a1f-93f1-a75e612afc3b")
-		)
-		(pin "6"
-			(uuid "679874a6-4978-4afb-a9b8-542735a8621b")
-		)
-		(pin "3"
-			(uuid "a70489fb-0864-4663-8d76-ebf022636a90")
-		)
-		(pin "2"
-			(uuid "4df8dc69-479d-40de-b21b-fa7b09fa603b")
-		)
-		(instances
-			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U28")
-					(unit 2)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U34")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 100.33 78.74 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30133a0c-29ab-4b69-9f03-1826302c741b")
-		(property "Reference" "U3"
-			(at 110.744 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 110.998 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a55277c9-cc4b-4a29-a465-44f51756a442")
-		)
-		(pin "7"
-			(uuid "2121d4f6-de12-4c8c-9c1d-3a06681ccd49")
-		)
-		(pin "2"
-			(uuid "3995884b-0502-403f-9c74-2f742bf78276")
-		)
-		(pin "5"
-			(uuid "144c28ee-4822-405e-bbcf-ffb4afb94986")
-		)
-		(pin "8"
-			(uuid "ec4c2e54-5ad7-4bd6-a358-e832e05d9719")
-		)
-		(pin "1"
-			(uuid "20dffca3-c6bb-4224-bcd7-59d5b8017587")
-		)
-		(pin "6"
-			(uuid "782bd5fd-b067-4a8c-b83f-4cc21ef3a6a3")
-		)
-		(pin "3"
-			(uuid "160c77c2-c5d9-4499-9bac-a3101283d338")
-		)
-		(instances
-			(project ""
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U3")
-					(unit 2)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -4201,7 +3805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b23ce0-e309-440d-9088-a53b743924de")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR025"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -4247,16 +3851,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "bee8f8e4-442c-4c4e-8789-62c5e4b829df")
+			(uuid "35a4a8c6-4c76-46b6-8f75-201ca3debd0c")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0192")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR025")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0215")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 99.06 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aee918f-9608-469d-93f9-0a38e1c70d23")
+		(property "Reference" "U11"
+			(at 92.964 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 99.822 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0ff983e-eb94-48cd-8e4d-efe4e603e2ba")
+		)
+		(pin "7"
+			(uuid "32cdd1c5-a068-4d66-929c-c45af27f46a5")
+		)
+		(pin "8"
+			(uuid "ea7cdcc2-bf17-4779-92d6-c54782114b4b")
+		)
+		(pin "6"
+			(uuid "2aee9d25-ad3c-46e0-8ef5-5ae44b18f100")
+		)
+		(pin "4"
+			(uuid "16a8e44a-51ba-4fec-b036-00771bd5265d")
+		)
+		(pin "1"
+			(uuid "321771b6-aec7-4bda-a2be-98bff4098134")
+		)
+		(pin "5"
+			(uuid "3eaac29c-9c1d-4068-b9b7-29447c10b631")
+		)
+		(pin "3"
+			(uuid "2b5983c8-ebcd-40c2-9555-fa2e1d2ad954")
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4271,7 +3964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d055291-5268-4539-b2ad-ec9dd4900fc9")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR015"
 			(at 86.36 187.96 0)
 			(effects
 				(font
@@ -4317,16 +4010,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fcb2cda-1f28-45d8-9155-edcc80daecdc")
+			(uuid "f986107a-40a6-40fd-bae9-323f88fca6a3")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0185")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR015")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0208")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2acce6-547a-4a68-b990-6f266d3715ce")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR03"
 			(at 208.28 107.95 0)
 			(effects
 				(font
@@ -4387,16 +4080,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f592b061-2b89-4cb0-a6af-bf19164aa57f")
+			(uuid "426eea51-0588-48ee-b0d0-b71cdc23ed1c")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0197")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0220")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4412,7 +4105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5045a5fc-72c4-49dc-9904-485145b7f566")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR016"
 			(at 114.3 113.03 0)
 			(effects
 				(font
@@ -4458,16 +4151,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e16989bc-6b40-4418-a8a2-08d255f3ea6c")
+			(uuid "ff1e4ae0-8891-430a-af93-5e060916e3c6")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0188")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR016")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0211")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51bf7e6a-7a36-4b98-af05-007ba61687f5")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR07"
 			(at 236.22 93.98 0)
 			(effects
 				(font
@@ -4528,16 +4221,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "515ed4d7-82f6-4ee6-9481-beb7955e67d7")
+			(uuid "bbf47824-68ae-4973-bf20-e89b2351bcee")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0199")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0222")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4553,7 +4246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c79887-8daf-481b-8510-322edbdc2a8e")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR024"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -4599,16 +4292,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "c982e456-a658-4dc3-9069-5acca4226820")
+			(uuid "35b1a805-fb94-4d87-a351-dbf14fdf6fde")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0189")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR024")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0212")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4623,7 +4316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572afc2d-248e-4fc5-9b72-02f0967efbb2")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR08"
 			(at 237.49 115.57 0)
 			(effects
 				(font
@@ -4669,16 +4362,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2eda5e37-1ff9-4d7f-beaa-a5f3c8572f19")
+			(uuid "35be0a30-be15-444f-8b99-00010acb3eac")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0200")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR08")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0223")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58bb23ed-d76f-4d02-aabb-de7a58a40bdb")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR02"
 			(at 209.55 115.57 0)
 			(effects
 				(font
@@ -4740,17 +4433,107 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7be7199-650c-4fdf-a575-0f26d580cb4c")
+			(uuid "d8a0b5fa-7961-48ae-a7bb-40fe96618a5c")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0196")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR02")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0219")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR050")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 100.33 78.74 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df564d9-f873-40ea-a8db-135f1f733c4f")
+		(property "Reference" "U2"
+			(at 98.552 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23a6d439-9098-4de0-89a2-e850740221f4")
+		)
+		(pin "7"
+			(uuid "37aeece1-9811-4592-8d0b-7d25d19c7ad2")
+		)
+		(pin "8"
+			(uuid "ea7cdcc2-bf17-4779-92d6-c54782114b4c")
+		)
+		(pin "6"
+			(uuid "f2409af4-0c2c-4944-88f2-b5e4b4d2b63e")
+		)
+		(pin "4"
+			(uuid "16a8e44a-51ba-4fec-b036-00771bd5265e")
+		)
+		(pin "1"
+			(uuid "98aac379-0def-4b02-ba21-9923ad199888")
+		)
+		(pin "5"
+			(uuid "e9e330b3-9683-4fa2-a492-e4d026f42218")
+		)
+		(pin "3"
+			(uuid "b53370f9-fab3-4af3-9507-2420c560ff34")
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U2")
+					(unit 2)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -4764,7 +4547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60d70282-8623-4c34-9ad5-71b240cc76cd")
-		(property "Reference" "R124"
+		(property "Reference" "R2"
 			(at 82.804 145.288 90)
 			(effects
 				(font
@@ -4807,36 +4590,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 82.55 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "404f2e58-700e-4aba-b369-562b19dc8ad5")
+			(uuid "31bfecf7-0926-4df7-8d3c-47063bc0d715")
 		)
 		(pin "1"
-			(uuid "3c415a1c-c237-4021-8e28-ef20e097aff7")
+			(uuid "cbb33df8-a859-474a-af22-ae87820881f2")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R124")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R2")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R138")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4852,7 +4619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61bd40ad-fd65-419e-9061-27a12f0b41c8")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR012"
 			(at 64.77 168.91 0)
 			(effects
 				(font
@@ -4898,16 +4665,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7c7139b-391f-4316-900f-becc30c046f1")
+			(uuid "ebb14044-83e9-4b21-8274-9197bb536592")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0180")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0203")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4922,7 +4689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "642a5c28-f88d-4221-b3cd-683ac0e79695")
-		(property "Reference" "R125"
+		(property "Reference" "R3"
 			(at 82.804 150.368 90)
 			(effects
 				(font
@@ -4965,36 +4732,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 82.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 82.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "a1d5f1d1-9892-44f4-a858-2cc72da3a0af")
+			(uuid "62d4103a-8da0-4fd9-ab33-779547ab7d8d")
 		)
 		(pin "1"
-			(uuid "dd6e757f-8075-45fa-bcd2-3499f70984aa")
+			(uuid "ea843c73-51db-4c88-9697-fcbb7d583201")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R125")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R3")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R139")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5010,7 +4761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68301ded-3d10-42fe-bc5b-a4fcb588b7ce")
-		(property "Reference" "C53"
+		(property "Reference" "C6"
 			(at 74.93 161.29 90)
 			(effects
 				(font
@@ -5053,36 +4804,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 74.93 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 74.93 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "7f9a206e-6375-4895-be77-c025db499e89")
+			(uuid "4f3642ac-297c-4b21-a237-b97533777853")
 		)
 		(pin "2"
-			(uuid "2ab4af75-bf9c-4293-a810-9208ddab9c2c")
+			(uuid "44bbcc17-fc4a-450c-bcd3-8f71027c95f3")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C53")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C6")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C60")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5098,7 +4833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be8c535-3381-4810-8916-9ba1960cf5b5")
-		(property "Reference" "R122"
+		(property "Reference" "R4"
 			(at 61.214 108.458 90)
 			(effects
 				(font
@@ -5141,36 +4876,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 60.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 60.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "0f35cac7-5298-41a6-b78d-df9e65609590")
+			(uuid "b669d6e1-e716-4d40-b036-a8c9e2f455c8")
 		)
 		(pin "2"
-			(uuid "d62bed92-b5b3-4a7f-b0e7-fe49b70810f1")
+			(uuid "5168efca-61ed-42b0-ac20-adf502862648")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R122")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R4")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R136")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5186,7 +4905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c1af5ab-83f3-4744-88b3-017dad2dd0ea")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR09"
 			(at 34.29 113.03 0)
 			(effects
 				(font
@@ -5232,16 +4951,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3171894b-8e30-4f91-b48f-eb03bdf32fb4")
+			(uuid "ed1c9807-636d-466c-bc38-609e8d21877e")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0178")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR09")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0201")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5257,7 +4976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7044214c-73bc-40e9-a785-a79b00bd051a")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR026"
 			(at 132.08 53.34 0)
 			(effects
 				(font
@@ -5302,16 +5021,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "117871ed-3fd6-4f24-9750-fbd77cb0b6d6")
+			(uuid "f63dd4f6-ed1a-4f88-aeef-ac8e0c7e0235")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0194")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0217")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70d116f1-5f33-412a-899e-4bac4801bc52")
-		(property "Reference" "Q26"
+		(property "Reference" "Q2"
 			(at 144.526 86.36 0)
 			(effects
 				(font
@@ -5381,45 +5100,29 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
-			(uuid "109a31c5-5e9f-44d6-b4a7-cb18aa75e0fb")
+			(uuid "523bd0e7-d66f-4966-8afd-aeaf30ef2091")
 		)
 		(pin "5"
-			(uuid "f1a1a23b-9945-481f-9520-ea899fb33581")
+			(uuid "8de2d1f1-3d7e-4687-ab97-56d268cdfd71")
 		)
 		(pin "4"
-			(uuid "b5788322-30d2-402c-a2de-7de6ff937d59")
+			(uuid "570fc82e-25b8-4d58-ac31-b9f7588ff7ef")
 		)
 		(pin "1"
-			(uuid "60a1368c-323d-45de-a224-b65e057d4775")
+			(uuid "441adbc6-b1af-4771-9381-dcecc12366a3")
 		)
 		(pin "2"
-			(uuid "e9c0501c-80f0-4f07-940f-c2f397c60f2f")
+			(uuid "2e1ad8eb-538e-4cec-a0fe-360d94fbb3fd")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "Q26")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "Q2")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "Q28")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7cd4f1-9e52-4619-99d2-c80623366f5e")
-		(property "Reference" "C56"
+		(property "Reference" "C8"
 			(at 91.44 49.5301 0)
 			(effects
 				(font
@@ -5481,36 +5184,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "ca51df41-697c-453a-8523-a5d2465de988")
+			(uuid "74328461-ea22-4986-bf10-3b42eab8cd8d")
 		)
 		(pin "2"
-			(uuid "3cf368c2-ef82-4f6f-a8f0-3e675658c206")
+			(uuid "070882e1-7635-4a5c-9c21-baa48b5fda39")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C56")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C8")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C63")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e4dc91b-e9d7-4433-be30-3854391dfb42")
-		(property "Reference" "R132"
+		(property "Reference" "R6"
 			(at 114.554 137.668 90)
 			(effects
 				(font
@@ -5568,36 +5255,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "e4946b88-9e18-4b9a-b4a6-2d512e635e51")
+			(uuid "2a191497-75ad-442e-8db1-2c087b2ae4fb")
 		)
 		(pin "1"
-			(uuid "8003ccb2-27e8-4990-81d8-9491442e0bf9")
+			(uuid "b1dbbc59-57e3-45d8-b1a4-72ec927ad8fa")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R132")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R6")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R146")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea8e9e3-6fc3-4e74-bef3-6c68e532bb53")
-		(property "Reference" "C58"
+		(property "Reference" "C2"
 			(at 212.09 118.1099 0)
 			(effects
 				(font
@@ -5658,36 +5329,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "4d8d5913-a99f-404f-838a-447a745577c8")
+			(uuid "4686f645-52d4-417f-ab10-8eef836d7599")
 		)
 		(pin "2"
-			(uuid "b41bf631-08a8-499d-8b0a-db9789212a06")
+			(uuid "ec8fff9a-392a-4ca0-af34-fa5eb715f1cd")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C58")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C2")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "C65")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7faee3e7-4e5c-4fea-be73-ab56c1161e2e")
-		(property "Reference" "R129"
+		(property "Reference" "R13"
 			(at 90.932 82.296 90)
 			(effects
 				(font
@@ -5746,78 +5401,53 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "4372a483-f417-4a43-b274-829351d15aee")
+			(uuid "595a6e87-a5d9-45d3-9fb8-4342551c38d3")
 		)
 		(pin "1"
-			(uuid "ff815a5f-92a0-48ff-a28b-4e1475a8e54b")
+			(uuid "e1df05fc-deab-4a9a-891b-f719fbd97989")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R129")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R13")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R143")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 219.71 113.03 90)
-		(unit 3)
+		(lib_id "Comparator:LM393")
+		(at 71.12 76.2 0)
+		(mirror y)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3a43938-27e7-42f8-931b-9ceb6c62023c")
-		(property "Reference" "U3"
-			(at 219.71 110.49 90)
+		(uuid "8a8ace01-2a8e-45d1-ba50-99d8fb5df19e")
+		(property "Reference" "U1"
+			(at 69.342 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM358"
-			(at 219.71 113.03 90)
+		(property "Value" "LM393"
+			(at 72.644 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 219.71 113.03 0)
+		(property "Footprint" ""
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,8 +5455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 219.71 113.03 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,39 +5464,48 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "a55277c9-cc4b-4a29-a465-44f51756a443")
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "7"
-			(uuid "2121d4f6-de12-4c8c-9c1d-3a06681ccd4a")
-		)
-		(pin "2"
-			(uuid "3995884b-0502-403f-9c74-2f742bf78277")
-		)
-		(pin "5"
-			(uuid "144c28ee-4822-405e-bbcf-ffb4afb94987")
+			(uuid "35a33ad2-19b4-4ce6-bd53-14963e292d9f")
 		)
 		(pin "8"
-			(uuid "ec4c2e54-5ad7-4bd6-a358-e832e05d971a")
+			(uuid "5b65dca6-87c4-4b38-b638-d8b836fe2210")
+		)
+		(pin "4"
+			(uuid "6c84d931-3a13-46a5-a775-e057d9d358e2")
+		)
+		(pin "5"
+			(uuid "517356dc-1304-4638-a733-fe795f75e765")
 		)
 		(pin "1"
-			(uuid "20dffca3-c6bb-4224-bcd7-59d5b8017588")
+			(uuid "2d2b4f15-0b61-4a1f-93f1-a75e612afc3b")
 		)
 		(pin "6"
-			(uuid "782bd5fd-b067-4a8c-b83f-4cc21ef3a6a4")
+			(uuid "232fdeb4-dbab-492a-b87d-3a4aa990fb96")
 		)
 		(pin "3"
-			(uuid "160c77c2-c5d9-4499-9bac-a3101283d339")
+			(uuid "a70489fb-0864-4663-8d76-ebf022636a90")
+		)
+		(pin "2"
+			(uuid "4df8dc69-479d-40de-b21b-fa7b09fa603b")
 		)
 		(instances
-			(project ""
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U3")
-					(unit 3)
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U1")
+					(unit 2)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U4")
-					(unit 3)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -5880,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab625707-78b0-4890-9d05-820cb23b617a")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR010"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -5926,48 +5565,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "09e7bbe1-fd4e-4924-80b6-617e362da5a0")
+			(uuid "1acea83d-f60a-4f15-89fa-e91c81e8288a")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0179")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR010")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0202")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 99.06 147.32 180)
+		(lib_id "power:+3V3")
+		(at 86.36 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aee35e06-f83d-431b-83d9-714fe872d3b2")
-		(property "Reference" "U3"
-			(at 108.966 147.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 110.998 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 99.06 147.32 0)
+		(uuid "ae980fb3-9d53-4d5f-a20d-b2f05a491647")
+		(property "Reference" "#PWR022"
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,8 +5598,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 99.06 147.32 0)
+		(property "Value" "+3V3"
+			(at 82.55 52.0701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,8 +5616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 99.06 147.32 0)
+		(property "Datasheet" ""
+			(at 86.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,38 +5625,26 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "a55277c9-cc4b-4a29-a465-44f51756a444")
-		)
-		(pin "7"
-			(uuid "2121d4f6-de12-4c8c-9c1d-3a06681ccd4b")
-		)
-		(pin "2"
-			(uuid "3995884b-0502-403f-9c74-2f742bf78278")
-		)
-		(pin "5"
-			(uuid "144c28ee-4822-405e-bbcf-ffb4afb94988")
-		)
-		(pin "8"
-			(uuid "ec4c2e54-5ad7-4bd6-a358-e832e05d971b")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "20dffca3-c6bb-4224-bcd7-59d5b8017589")
-		)
-		(pin "6"
-			(uuid "782bd5fd-b067-4a8c-b83f-4cc21ef3a6a5")
-		)
-		(pin "3"
-			(uuid "160c77c2-c5d9-4499-9bac-a3101283d33a")
+			(uuid "768428c4-4e34-4846-a4d0-44ae0a66aca4")
 		)
 		(instances
-			(project ""
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U3")
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U4")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6040,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a07a61-45eb-4e09-af81-b01f7bd61237")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR018"
 			(at 127 139.7 0)
 			(effects
 				(font
@@ -6086,16 +5706,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "93e50af1-e05a-4c98-80ba-046c0d9f5458")
+			(uuid "634828c0-7c72-4d48-a41a-6cce45763cd6")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0191")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0214")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6110,7 +5730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6c20f49-756b-495e-902a-44ff310b75f5")
-		(property "Reference" "Q25"
+		(property "Reference" "Q1"
 			(at 143.256 139.7 0)
 			(effects
 				(font
@@ -6164,45 +5784,29 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
-			(uuid "d8cd22f1-252b-4077-a223-5859680757b3")
+			(uuid "4bce6160-1b7f-4416-b532-3710ecf6fc1a")
 		)
 		(pin "5"
-			(uuid "ad76e307-8b4c-4ba2-ab78-91a9714a14d4")
+			(uuid "3f07a52d-6b27-4a4a-99fc-6be533769359")
 		)
 		(pin "4"
-			(uuid "d16a40c7-b42e-49d4-b99b-62db449f83ce")
+			(uuid "2e5be1af-4dae-4ed0-b827-d9b081d69178")
 		)
 		(pin "1"
-			(uuid "48bba2eb-6b80-43f0-a8f1-e3cd93d5341b")
+			(uuid "bd5bfa82-30b7-4829-abe8-f92c91946d14")
 		)
 		(pin "2"
-			(uuid "325ead17-7213-4a9b-960b-de69e4fe9c7d")
+			(uuid "9196da46-4d9c-4a89-8b70-0423c44f752e")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "Q25")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "Q1")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "Q27")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6217,7 +5821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbea5c4a-955f-46a3-a3ec-e6fd54154325")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR019"
 			(at 130.81 172.72 0)
 			(effects
 				(font
@@ -6262,16 +5866,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6e019f8-8be0-48f0-87d6-8e968f45acb5")
+			(uuid "9aa594ea-c2ed-4cc7-9dd6-ade29e87185d")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0193")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR019")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0216")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6287,7 +5891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc85d7c4-7bc3-4228-b0ac-192fcf0ff26d")
-		(property "Reference" "R123"
+		(property "Reference" "R1"
 			(at 61.214 113.538 90)
 			(effects
 				(font
@@ -6330,36 +5934,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 60.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "becd58e6-ed2c-4125-9ab6-49ef9d9a2732")
+			(uuid "c4393be3-54aa-41e2-909f-f429bafc75fd")
 		)
 		(pin "2"
-			(uuid "3663e144-0e52-4dba-a53b-01aec132ebf8")
+			(uuid "09494ea4-1d49-4a17-a731-91c186bae644")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R123")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R1")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R137")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6375,7 +5963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf2b6b36-3141-43d1-82a0-1e657b2db11f")
-		(property "Reference" "R134"
+		(property "Reference" "R7"
 			(at 133.35 161.2899 0)
 			(effects
 				(font
@@ -6420,36 +6008,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 130.81 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 130.81 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "841e11ed-594e-4b10-bddc-3c8bd7a40612")
+			(uuid "2415ccda-7d6c-4dd5-b010-d73933e1719f")
 		)
 		(pin "1"
-			(uuid "69d581e9-44d1-49c0-a9ec-033882d743b9")
+			(uuid "97aa164c-b940-4dee-8fda-adad6d8a6491")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R134")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R7")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R148")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6464,7 +6036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2124c74-4df0-4475-889c-2df194bb424c")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR020"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -6510,16 +6082,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e5b749c-359f-4efd-b2fa-ff114ad4857c")
+			(uuid "c4ffd5b4-8326-4813-93f0-271a148f4622")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0181")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR020")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0204")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6535,7 +6107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c309f0e9-ec90-4965-b6d4-b6ea3ac81330")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR023"
 			(at 87.63 38.1 0)
 			(effects
 				(font
@@ -6581,16 +6153,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcc56bb0-8ea8-4c85-a572-7b260f75eb09")
+			(uuid "23313e16-3208-4e9b-afcc-5480fa248a09")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0186")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR023")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0209")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43e2cff-6ad8-45f1-97f5-66024ca944f9")
-		(property "Reference" "U32"
+		(property "Reference" "U9"
 			(at 102.87 161.29 0)
 			(effects
 				(font
@@ -6658,48 +6230,32 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 102.87 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 102.87 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "f5396efc-8b40-4d3c-8a02-ecfae067b121")
+			(uuid "3ffcd95c-82f4-4aa6-8808-275044939e18")
 		)
 		(pin "3"
-			(uuid "164c823a-2a89-4c10-aad6-26da363c5210")
+			(uuid "9fd28ee8-be8a-4155-9405-78127650668e")
 		)
 		(pin "4"
-			(uuid "c525c36b-349b-4c91-8bbc-471a3bb74d91")
+			(uuid "c94c63f7-f4e1-47e2-aec9-0dd89d11beeb")
 		)
 		(pin "6"
-			(uuid "ede06920-1c51-44f2-b8c0-e585a2b7e240")
+			(uuid "69fd9364-d2d2-459c-a5e4-739e2a0919a8")
 		)
 		(pin "2"
-			(uuid "880afa18-26ef-4cf4-b0b2-aeac66c1a20f")
+			(uuid "aece8b2b-341a-4e4e-9893-2c27a2fe9900")
 		)
 		(pin "5"
-			(uuid "77c545ac-5bcb-420d-ba01-2d7db7c1f6c0")
+			(uuid "dbabeed3-e9ec-4a1a-a8e8-b4d213dfbf73")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U32")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U9")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U38")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -6714,7 +6270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7f1af7b-be94-4439-9cad-59f7451bbdff")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR017"
 			(at 125.73 168.91 0)
 			(effects
 				(font
@@ -6760,49 +6316,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "2829d1e6-bbba-44e3-a1b2-cb13cf2f71b0")
+			(uuid "185bf5c7-12d0-41e1-81b8-f0bf6e590298")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0190")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0213")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM393")
-		(at 71.12 76.2 0)
-		(mirror y)
+		(lib_id "power:+3V3")
+		(at 85.09 173.99 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1dbca33-86e8-4faf-858c-b9eed88570d8")
-		(property "Reference" "U28"
-			(at 69.342 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 72.644 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-			(at 71.12 76.2 0)
+		(uuid "e433cc28-0613-4ebd-bb74-c508ed2e3d76")
+		(property "Reference" "#PWR014"
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,8 +6350,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 71.12 76.2 0)
+		(property "Value" "+3V3"
+			(at 81.28 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,8 +6368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 71.12 76.2 0)
+		(property "Datasheet" ""
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,55 +6377,117 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 71.12 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(property "Sim.Type" ""
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "4b62b434-d8bf-45a0-97f4-a8d7ab1dca4a")
-		)
-		(pin "8"
-			(uuid "5b65dca6-87c4-4b38-b638-d8b836fe2211")
-		)
-		(pin "4"
-			(uuid "6c84d931-3a13-46a5-a775-e057d9d358e3")
-		)
-		(pin "5"
-			(uuid "5d22e417-00a5-4fdc-8f21-dff7bc1c18f0")
 		)
 		(pin "1"
-			(uuid "416fbe47-c0e9-4059-8ebd-76309bbcd00d")
-		)
-		(pin "6"
-			(uuid "62a6ce13-0843-4dde-b3c2-297a70dd6b2c")
-		)
-		(pin "3"
-			(uuid "53357303-8294-4f80-b3a0-903e253d103f")
-		)
-		(pin "2"
-			(uuid "871ab3bf-93c6-4161-af6a-f954f401321d")
+			(uuid "0f7f6138-a7db-4f46-a092-2cdd8d0d8336")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U28")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR014")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "U34")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR037")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 219.71 118.11 90)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e75de3e6-f387-49bd-82ea-3e16905203e6")
+		(property "Reference" "U2"
+			(at 219.71 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 219.71 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23a6d439-9098-4de0-89a2-e850740221f5")
+		)
+		(pin "7"
+			(uuid "32cdd1c5-a068-4d66-929c-c45af27f46a7")
+		)
+		(pin "8"
+			(uuid "db36787d-ceef-445a-a5fe-64e5e6e3bdf8")
+		)
+		(pin "6"
+			(uuid "2aee9d25-ad3c-46e0-8ef5-5ae44b18f102")
+		)
+		(pin "4"
+			(uuid "cbce2762-e6ab-48aa-b605-14a4bf2260bd")
+		)
+		(pin "1"
+			(uuid "98aac379-0def-4b02-ba21-9923ad199889")
+		)
+		(pin "5"
+			(uuid "3eaac29c-9c1d-4068-b9b7-29447c10b633")
+		)
+		(pin "3"
+			(uuid "b53370f9-fab3-4af3-9507-2420c560ff35")
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U2")
+					(unit 3)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -6891,7 +6502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec0d8513-40d0-4d5c-96a9-700a078050cd")
-		(property "Reference" "R127"
+		(property "Reference" "R8"
 			(at 84.074 80.772 90)
 			(effects
 				(font
@@ -6934,36 +6545,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 83.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 83.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "ec45a1c4-c263-47d3-b009-2df635f15697")
+			(uuid "83582d43-f87a-4740-988b-e8e186bd160d")
 		)
 		(pin "1"
-			(uuid "e8cd2a16-dac6-42c9-b318-0f19d2711152")
+			(uuid "790c7d4b-5b19-48fc-b0d1-0313dbe8577d")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R127")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R8")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R141")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6980,7 +6575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed89c835-b380-410d-b363-f66d4ef17cb0")
-		(property "Reference" "R135"
+		(property "Reference" "R12"
 			(at 134.62 64.7701 0)
 			(effects
 				(font
@@ -7025,36 +6620,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "8ad16e8c-1d90-4b21-9fc0-e78a8e842e14")
+			(uuid "3c2430f3-02dc-45ab-b457-e9dabe9a92aa")
 		)
 		(pin "1"
-			(uuid "9b6afc43-12df-4ae0-8c6c-f905af194f3b")
+			(uuid "f4f904cf-9c34-4798-a671-2793006859c4")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R135")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R12")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R149")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7070,7 +6649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1f7597b-d519-4cb8-8c81-144e08c5d4d2")
-		(property "Reference" "R126"
+		(property "Reference" "R9"
 			(at 84.074 75.692 90)
 			(effects
 				(font
@@ -7113,36 +6692,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 83.82 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 83.82 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "05ea731a-0089-4876-988f-942c0ad61cda")
+			(uuid "3c172621-0cfa-497f-84ec-4517b3c32802")
 		)
 		(pin "1"
-			(uuid "6a9076eb-cab6-44d4-ba88-3745ce27ad6a")
+			(uuid "fe7f1a6c-fdb0-4421-9bf4-b39333c3d8ca")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R126")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R9")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R140")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7157,7 +6720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2a0fe9d-fda5-4bb7-8e9b-e6fab4800399")
-		(property "Reference" "R130"
+		(property "Reference" "R5"
 			(at 98.806 137.414 90)
 			(effects
 				(font
@@ -7200,36 +6763,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 99.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 99.06 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "b00c321b-c423-41c1-8287-78b8d06f8fee")
+			(uuid "82b4e6f9-5bd5-43f3-be20-4c8a230ea1b3")
 		)
 		(pin "1"
-			(uuid "86a60e40-10e3-4e15-bc4d-a78f7d6f5c31")
+			(uuid "678ae4ab-4519-494a-86f7-fac47f6e7691")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R130")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R5")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R144")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7245,7 +6792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8ae1eea-8391-4e32-a937-133d6578261b")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR013"
 			(at 78.74 171.45 0)
 			(effects
 				(font
@@ -7291,16 +6838,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "880750ff-918e-409a-99cc-0ede94023268")
+			(uuid "b5edda4f-aab9-4a12-8e55-4ecd4b558e2d")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0182")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR013")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "#PWR0205")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7316,7 +6863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb5fc760-6829-454f-ad4d-181db4df953f")
-		(property "Reference" "R131"
+		(property "Reference" "R10"
 			(at 100.076 84.582 90)
 			(effects
 				(font
@@ -7359,36 +6906,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "92f7485f-71a5-4a81-b0e5-b3e846900a23")
+			(uuid "8bcb28fd-80b7-4184-907a-cc43317cfb0a")
 		)
 		(pin "1"
-			(uuid "7ceb6fdf-88ce-4a4d-a0f8-9e9e8380f392")
+			(uuid "474a7a08-d205-499f-80a6-434a59f5e514")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R131")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R10")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R145")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7403,7 +6934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd2640b1-e611-447f-88bb-e8bf317b3b18")
-		(property "Reference" "R128"
+		(property "Reference" "R14"
 			(at 89.662 143.764 90)
 			(effects
 				(font
@@ -7446,36 +6977,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "dc34f9d6-9df0-4a30-8870-6ccd58ac5741")
+			(uuid "e04b2f11-b9af-406a-8de3-472a21b1da62")
 		)
 		(pin "1"
-			(uuid "e6a41381-d565-48f7-9260-f17d1dfa9fec")
+			(uuid "c57a4a3b-c986-4529-8804-c06ea19ec429")
 		)
 		(instances
 			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/73c31c82-b4ce-4db9-85ed-23bc4db11f2f/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R128")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R14")
 					(unit 1)
 				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/e110922e-d609-4fdc-b99c-b09b6b9b3dde"
-					(reference "R142")
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "R21")
 					(unit 1)
 				)
 			)
