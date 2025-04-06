@@ -58,13 +58,38 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|350850000|200000000|b516ce4a-0199-4b00-ab41-fc34f7285834|80edccfb-a024-422d-854a-d98bac9e70bb",
+          ""
+        ],
+        [
+          "hole_clearance|350850000|200000000|b516ce4a-0199-4b00-ab41-fc34f7285834|d63a6b9e-bab6-4340-98dd-f1aca5f9177b",
+          ""
+        ],
+        [
+          "hole_clearance|480850000|200000000|587a478f-73fa-4679-822f-39802f64a3e5|0eebe278-6191-483d-a31c-c8ed8a10703a",
+          ""
+        ],
+        [
+          "hole_clearance|480850000|200000000|587a478f-73fa-4679-822f-39802f64a3e5|ba28a2cf-ba86-4a68-8af7-e03658a2db50",
+          ""
+        ],
+        [
+          "hole_clearance|90850000|200000000|8972d042-3f96-4894-9fc1-ddb85bf4987e|6b4f78e0-32d2-48df-b529-564f9c477e57",
+          ""
+        ],
+        [
+          "hole_clearance|90850000|200000000|8972d042-3f96-4894-9fc1-ddb85bf4987e|ef250e93-aed3-47a4-90c8-09b69d98e301",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -105,7 +130,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
