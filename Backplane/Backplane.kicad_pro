@@ -697,18 +697,6 @@
       "Root"
     ],
     [
-      "81262db6-1344-47a0-9f92-195f049a7bd1",
-      "BAT_LEDS1"
-    ],
-    [
-      "18acac67-33a7-41fb-bfa9-1a687dcafebc",
-      "BAT_LEDS2"
-    ],
-    [
-      "3c9f02da-d650-4aeb-96f8-fcecffdf73c3",
-      "BAT_LEDS3"
-    ],
-    [
       "73c31c82-b4ce-4db9-85ed-23bc4db11f2f",
       "BatPair2"
     ],
@@ -725,18 +713,6 @@
       "BatMax - Female"
     ],
     [
-      "da7544e6-abb6-4349-a9c8-8cf8ece4b836",
-      "PIO_EXT"
-    ],
-    [
-      "740f29a7-6c31-469a-b612-51421909acdf",
-      "BAT_LEDS4"
-    ],
-    [
-      "bfbf5e40-1693-4915-89fc-d95381947453",
-      "I2CMux"
-    ],
-    [
       "d619fa52-f488-4117-86b4-e605a2e4fb70",
       "BatMax - Female"
     ],
@@ -745,44 +721,8 @@
       "BatMax - Female1"
     ],
     [
-      "76e3960b-f2fa-46d9-a2c9-b40bbe294a89",
-      "ADS1118"
-    ],
-    [
-      "96873c15-38e4-4c0b-b1e2-d0c2ef94343b",
-      "ADS1119"
-    ],
-    [
-      "76e3960b-f2fa-46d9-a2c9-b40bbe294a89",
-      "ADS1118"
-    ],
-    [
-      "1979f2c3-1710-4bb2-a6c3-7b1b8a5db6b2",
-      "I2CMux1"
-    ],
-    [
-      "96873c15-38e4-4c0b-b1e2-d0c2ef94343b",
-      "ADS1119"
-    ],
-    [
-      "06b95e8c-a01d-4481-87a7-6ca1ab97078e",
-      "PIO_EXT1"
-    ],
-    [
-      "e110922e-d609-4fdc-b99c-b09b6b9b3dde",
-      "Current Control1"
-    ],
-    [
-      "f2f6fea8-1014-4acb-870f-95f3993f6225",
-      "PSUS"
-    ],
-    [
       "b6b3263e-d8dd-4033-8412-7162fd0c1033",
       "MountingHoles"
-    ],
-    [
-      "e110922e-d609-4fdc-b99c-b09b6b9b3dde",
-      "Current Control1"
     ]
   ],
   "text_variables": {}
